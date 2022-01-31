@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <style> </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+    <form action="https://w3school.com/action_page.php" method="GET" class="formulario">
+        <div>
+            
+            <h1>Formulario e cadastro</h1>
+            <span class="subtitulo"> Preencha os campos</span>
+        </div><br>
+        <div>
+            <label for="campoNome" class="rotulos">Nome</label>
+            <input type="text" id="campoName" placeholder="Nome Completo" class="campotexto" name="Nome">
+        </div>
+        <div>
+            <label for="campoemail"class="rotulos">E-mail</label>
+            <input type="text" id="campoemail" placeholder="coloque seu email" class="campotexto" name="E-mail">
+        </div>
+        <div>
+            <label for="campotelefone" class="rotulos">Telefone</label>
+            <input type="text" id="campoTelefone" placeholder="Digite seu Teledone" class="campotexto" name="Telefone">
+        </div>
+        <div>
+            <label for="campoOpcao" class="rotulos">Opção de contato</label>
+            <select name="opacaoContato" class="campoSelecao" id="campoOpcao">
+                <option value="">Selecione uma Opção</option> 
+                <option value="email">Coloque email</option>    
+                <option value="telefone">coloque telefone</option>  
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="enviar" class="botao">
+        </div>
+    </form>

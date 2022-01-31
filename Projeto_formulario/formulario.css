@@ -1,0 +1,49 @@
+.formulario {
+    width: 500px;
+    margin: auto;
+    background-color: rgb(47,83,133);
+    /*cima direita embaixo esquerda*/
+    padding: 40px 50px 50px 80px;
+    border-radius: 27px;
+}
+h1 {
+    
+    padding: 0px 25px 5px 0px;
+    text-align: center;
+    border-bottom: 4px solid #000;
+    font-family: sans-serif;
+    color: white;
+}
+.subtitulo {
+    font-family: sans-serif;
+    color: white;
+}
+
+div {
+    margin: 0px 0px 20px;
+}
+.rotulos {
+    padding: 0px 0px 0px 15px; 
+    float: left;
+    width: 100px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.campoTexto { border:none;
+    border-radius: 20px;
+    width: 100px;
+    background-color:rgb(202,235,250);
+    padding: 50px;
+}
+.campoSelecao{
+    width: 74%
+    
+}
+.botao {
+    width: 100px;
+    margin-left: 180px;
+    text-align: center;
+    background-color: orange;
+    border-radius: 5px;
+}
